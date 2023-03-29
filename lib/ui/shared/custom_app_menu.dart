@@ -57,9 +57,9 @@ class _CustomAppMenuState extends State<CustomAppMenu> with SingleTickerProvider
               ...[
                 CustomMenuItem(delay: 0, text: 'Home', onPressed: () => pageProvider.goTo(0)),
                 CustomMenuItem(delay: 30, text: 'About', onPressed: () => pageProvider.goTo(1)),
-                CustomMenuItem(delay: 60, text: 'Pricing', onPressed: () => pageProvider.goTo(2)),
-                CustomMenuItem(delay: 90, text: 'Contact', onPressed: () => pageProvider.goTo(3)),
-                CustomMenuItem(delay: 120, text: 'Location', onPressed: () => pageProvider.goTo(4)),
+                CustomMenuItem(delay: 60, text: 'Contact', onPressed: () => pageProvider.goTo(2)),
+                CustomMenuItem(delay: 90, text: 'Location', onPressed: () => pageProvider.goTo(3)),
+                CustomMenuItem(delay: 120, text: 'Pricing', onPressed: () => pageProvider.goTo(4)),
                 const SizedBox(height: 8,)
               ]
             ],
